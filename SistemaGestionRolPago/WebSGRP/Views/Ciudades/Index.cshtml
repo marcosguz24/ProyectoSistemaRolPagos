@@ -1,0 +1,62 @@
+﻿@using Modelo.Entidades
+@model IEnumerable<Ciudad>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Ciudades</h1>
+<p>Se presenta la lista de Ciudades registrados en el SGPG</p>
+
+<div class="container">
+    @if(TempData["mensaje"] != null)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            @TempData["mensaje"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                <span aria-hidden="true">
+                    &times;
+                </span>
+            </button>
+        </div>
+    }
+    
+    <div class="row">
+        <div class="col-sm-9">
+            <h3>Lista de Ciudades</h3>
+        </div>
+        <div class="col-sm-3">
+            <a class="btn btn-success d-block" asp-controller="Ciudades" asp-action="Create">
+                Crear Ciudad
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>Ciudades</td>
+                    <td>Region</td>
+                    <td>Aciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Ciudad ciudad in Model)
+               {
+                    <tr>
+                        <td>@ciudad.Nombre_Ciudad</td>
+                        <td>@ciudad.Regiones.Nombre_Region</td>
+                        <td>
+                            <a class="btn btn-warning" asp-controller="Ciudades" asp-action="Edit" asp-route-id="@ciudad.CiudadId">
+                                Editar
+                            </a>
+                            <a class="btn btn-danger" asp-controller="Ciudades" asp-action="Delete" asp-route-id="@ciudad.CiudadId">
+                                Borrar
+                            </a>
+                        </td>
+                    </tr>
+               }
+            </tbody>
+        </table>
+    </div>
+</div>

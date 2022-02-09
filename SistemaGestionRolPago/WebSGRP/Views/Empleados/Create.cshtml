@@ -1,0 +1,113 @@
+﻿@using Modelo.Entidades
+@model Empleado
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Creación de Empleados</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Nuevo Empleado</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10">
+            <form method="post" asp-action="Create">
+                <div class="form-group">
+                    <label class="control-label">Nombres</label>
+                    <input class="form-control" asp-for="Nombres_Empleado" placeholder="Nombre del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Apellidos</label>
+                    <input class="form-control" asp-for="Apellidos_Empleado" placeholder="Apellidos del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Cédula</label>
+                    <input class="form-control" asp-for="Cedula_Empleado" placeholder="Cédula del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">E-mail</label>
+                    <input type="email" class="form-control" asp-for="Email_Empleado" placeholder="example@mail.com"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Celular</label>
+                    <input class="form-control" asp-for="Celular_Empleado" placeholder="Celular del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Profesión</label>
+                    <input class="form-control" asp-for="Profesion_Empleado" placeholder="Profesión del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Nivel de Educación</label>
+                    <input class="form-control" asp-for="Nivel_Educacion_Empleado" placeholder="Nivel de Educación del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Sexo</label>
+                    <select class="form-control"
+                    asp-for="Sexo_Empelado" asp-items="Html.GetEnumSelectList<TipoSexo>()" >
+                        <option value="">--- Seleccione el Sexo ---</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Estado Civil</label>
+                    <select class="form-control"
+                    asp-for="Estado_Civil" asp-items="Html.GetEnumSelectList<EstadoCivil>()" >
+                        <option value="">--- Seleccione el Tipo de Cuenta ---</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Tipo de Banco</label>
+                    <input class="form-control" asp-for="Banco" placeholder="Tipo de Banco"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Tipo Cuenta</label>
+                    <select class="form-control"
+                    asp-for="Tipo_Cuenta" asp-items="Html.GetEnumSelectList<TipoCuenta>()" >
+                        <option value="">--- Seleccione el Tipo de Cuenta ---</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Número de Cuenta Bancaria</label>
+                    <input class="form-control" asp-for="Numero_Cuenta" placeholder="Número de Cuenta Bancaria del Empleado"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Ciudad</label>
+                    <select class="form-control" asp-for="CiudadId" asp-items="@ViewBag.selectListaCiudades">
+                        <option value="">--- Seleccione la Ciudad ---</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Permisos</label>
+                    <select class="form-control" asp-for="PermisoId" asp-items="@ViewBag.selectListaPermisos">
+                        <option value="">--- Seleccione el Permiso ---</option>
+                    </select>
+                </div>
+
+                @*
+                <div class="form-group">
+                    <label class="control-label">Rubro</label>
+                    <select class="form-control" asp-for="RubroId" asp-items="@ViewBag.selectListaRubros">
+                        <option value="">--- Seleccione el Rubro ---</option>
+                    </select>
+                </div>
+                *@
+                <div class="form-group">
+                    <label class="control-label">Asistencia</label>
+                    <select class="form-control" asp-for="AsistenciaId" asp-items="@ViewBag.selectListaAsistencias">
+                        <option value="">--- Seleccione la Asistencia ---</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" value="Crear" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

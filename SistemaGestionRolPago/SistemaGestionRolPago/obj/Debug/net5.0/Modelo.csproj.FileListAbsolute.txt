@@ -1,0 +1,5 @@
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\SistemaGestionRolPago\obj\Debug\net5.0\Modelo.csproj.AssemblyReference.cache
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\SistemaGestionRolPago\obj\Debug\net5.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\SistemaGestionRolPago\obj\Debug\net5.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\SistemaGestionRolPago\obj\Debug\net5.0\Modelo.AssemblyInfo.cs
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\SistemaGestionRolPago\obj\Debug\net5.0\Modelo.csproj.CoreCompileInputs.cache

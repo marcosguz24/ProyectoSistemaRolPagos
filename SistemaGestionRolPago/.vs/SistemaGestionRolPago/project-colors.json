@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0946403c-3aea-451d-a720-7d447801ecfa": {
+      "ProjectGuid": "0946403c-3aea-451d-a720-7d447801ecfa",
+      "DisplayName": "Modelo",
+      "ColorIndex": 0
+    },
+    "0e5ab180-886f-43e5-be2b-b7d7aa159e8c": {
+      "ProjectGuid": "0e5ab180-886f-43e5-be2b-b7d7aa159e8c",
+      "DisplayName": "ModeloDB",
+      "ColorIndex": 1
+    },
+    "40cb774d-c1b1-40d1-b3e1-859fb4dbc329": {
+      "ProjectGuid": "40cb774d-c1b1-40d1-b3e1-859fb4dbc329",
+      "DisplayName": "SGRP",
+      "ColorIndex": 2
+    },
+    "cc0183f7-a1c5-4f47-af8d-72a5e69d6ec4": {
+      "ProjectGuid": "cc0183f7-a1c5-4f47-af8d-72a5e69d6ec4",
+      "DisplayName": "CargaDatos",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "f887f717-b21b-468b-84f1-fa15ce2bf646": {
+      "ProjectGuid": "f887f717-b21b-468b-84f1-fa15ce2bf646",
+      "DisplayName": "Modelo",
+      "ColorIndex": 4
+    },
+    "a9ed9bf8-e0e9-471d-b031-55d04e97184d": {
+      "ProjectGuid": "a9ed9bf8-e0e9-471d-b031-55d04e97184d",
+      "DisplayName": "WebSGRP",
+      "ColorIndex": 5
+    },
+    "f730754c-2368-43b5-9256-78dc255b93eb": {
+      "ProjectGuid": "f730754c-2368-43b5-9256-78dc255b93eb",
+      "DisplayName": "Helpers",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

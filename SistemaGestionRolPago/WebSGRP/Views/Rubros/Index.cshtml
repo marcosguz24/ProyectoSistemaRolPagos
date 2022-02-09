@@ -1,0 +1,63 @@
+﻿@using Modelo.Entidades
+@model IEnumerable<Rubro>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Rubros</h1>
+<p>Se presenta la lista de Rubros registrados el SGRP</p>
+
+<div class="container">
+    @if(TempData["mensaje"] != null)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            @TempData["mensaje"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                <span aria-hidden="true">
+                    &times;
+                </span>
+            </button>
+        </div>
+    }
+    
+    <div class="row">
+        <div class="col-sm-9">
+            <h3>Lista de Rubros</h3>
+        </div>
+        <div class="col-sm-3">
+            <a class="btn btn-success d-block" asp-controller="Rubros" asp-action="Create">
+                Crear Rubro
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>Nombre del Rubro</td>
+                    <td>Tipo de Rubro</td>
+                    <td>Acciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Rubro rubro in Model)
+               {
+                    <tr>
+                        <td>@rubro.Nombre_Rubro</td>
+                        <td>@rubro.Tipo_Rubro</td>
+                        <td>
+                            <a class="btn btn-warning" asp-controller="Rubros" asp-action="Edit" asp-route-id="@rubro.RubroId">
+                                Editar
+                            </a>
+                            <a class="btn btn-danger" asp-controller="Rubros" asp-action="Delete" asp-route-id="@rubro.RubroId">
+                                Borrar
+                            </a>
+                        </td>
+                    </tr>
+               }
+            </tbody>
+        </table>
+    </div>
+</div>
+
