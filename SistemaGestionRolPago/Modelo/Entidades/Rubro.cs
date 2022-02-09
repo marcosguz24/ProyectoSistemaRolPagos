@@ -22,6 +22,5 @@ namespace Modelo.Entidades
 
         //Propiedad relacion con RolPagos
         public RolPago Rol_Pagos { get; set; }
-        public int RolPagosId { get; set; }
     }
 }

@@ -24,6 +24,7 @@ namespace Modelo.Entidades
         public string Banco { get; set; }
         public TipoCuenta Tipo_Cuenta { get; set; }
         public string Numero_Cuenta { get; set; }
+        public double sueldo { get; set; }
 
         //Propiedad relacion con Contrato
         public Contrato Contrato { get; set; }

@@ -134,10 +134,10 @@ namespace ModeloDB
                 .HasForeignKey(empleado => empleado.JornadaTrabajoId);
 
             //Relacion uno a uno de Rubros a RolPago
-            modelBuilder.Entity<Rubro>()
-                .HasOne(rubro => rubro.Rol_Pagos)
-                .WithOne(rolPago => rolPago.Rubros)
-                .HasForeignKey<Rubro>(rubro => rubro.RolPagosId);
+            modelBuilder.Entity<RolPago>()
+                .HasOne(rol => rol.Rubros)
+                .WithOne(rubo => rubo.Rol_Pagos)
+                .HasForeignKey<RolPago>(rol => rol.RubroId);
 
             //Relacion uno a varios de Rubros a Empleado
             modelBuilder.Entity<Empleado>()

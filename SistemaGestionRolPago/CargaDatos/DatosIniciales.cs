@@ -322,6 +322,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3359628741",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -341,6 +342,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2258963158",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMudanza,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -360,6 +362,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2257896321",
+                sueldo = 1200.00,
                 Jornada_Trabajo = nocturna,
                 Permiso = permisoFallecimiento,
                 AsistenciaEmpleados = asistenciaNocturna
@@ -379,6 +382,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2210361461",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoHospitalizacion,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -400,6 +404,7 @@ namespace CargaDatos
                 Numero_Cuenta = "3330262096",
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
+                sueldo = 1200.00,
                 AsistenciaEmpleados = asistenciaOrdinaria,
             };
 
@@ -417,6 +422,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2220449982",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMudanza,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -436,6 +442,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2210417740",
+                sueldo = 1200.00,
                 Jornada_Trabajo = nocturna,
                 Permiso = permisoFallecimiento,
                 AsistenciaEmpleados = asistenciaNocturna
@@ -455,6 +462,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2271082337",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoHospitalizacion,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -474,6 +482,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3370200462",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -493,6 +502,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3370326986",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -512,6 +522,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3310325673",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -531,6 +542,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2210185257",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoHospitalizacion,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -550,6 +562,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3380272463",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -569,6 +582,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3330169264",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -588,6 +602,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3310311021",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -607,6 +622,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3330380154",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -626,6 +642,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "330339957",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -645,6 +662,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2220208587",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMudanza,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -664,6 +682,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "220278017",
+                sueldo = 1200.00,
                 Jornada_Trabajo = nocturna,
                 Permiso = permisoFallecimiento,
                 AsistenciaEmpleados = asistenciaNocturna
@@ -683,6 +702,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "220185896",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoHospitalizacion,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -702,6 +722,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Corriente,
                 Numero_Cuenta = "3330150923",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMatrimonio,
                 AsistenciaEmpleados = asistenciaOrdinaria,
@@ -721,6 +742,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2200148605",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoMudanza,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -740,6 +762,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2210259930",
+                sueldo = 1200.00,
                 Jornada_Trabajo = nocturna,
                 Permiso = permisoFallecimiento,
                 AsistenciaEmpleados = asistenciaNocturna
@@ -759,6 +782,7 @@ namespace CargaDatos
                 Banco = "Pichincha",
                 Tipo_Cuenta = TipoCuenta.Ahorros,
                 Numero_Cuenta = "2280106861",
+                sueldo = 1200.00,
                 Jornada_Trabajo = ordinaria,
                 Permiso = permisoHospitalizacion,
                 AsistenciaEmpleados = asistenciaOrdinaria
@@ -961,7 +985,7 @@ namespace CargaDatos
                 Dias_Gracia_Rubro = 5,
                 Empleados = new List<Empleado>()
                 {
-                    TamaraBravo, AnaBravo, /*IsabellaOlmedo*/ CarlosBravo,
+                    TamaraBravo, AnaBravo, IsabellaOlmedo, CarlosBravo,
                     PedroGomez, KarlaNajarez, FernandoBrayanes
                 }
             };
@@ -1021,17 +1045,83 @@ namespace CargaDatos
                 Estado_Rol = "Pagado",
                 Rubros = ingenieriaSistemas
             };
-            OperacionesRolPagos rolPagoTamaraBravo = new OperacionesRolPagos();
-            OperacionesRolPagos contratoTamaraBravo = new OperacionesRolPagos(contratoPlazoFijoAnalista);
-            //rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual();
-            //rolRubroIngenieriaSistemas.decimoTercerSueldo = contratoTamaraBravo.calcularDecimoTercer();
+            OperacionesRolPagos rolPagoTamaraBravo = new OperacionesRolPagos(TamaraBravo);
+            //OperacionesRolPagos contratoTamaraBravo = new OperacionesRolPagos(contratoPlazoFijoAnalista);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoTamaraBravo.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoTamaraBravo.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoTamaraBravo.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoTamaraBravo.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoTamaraBravo.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoTamaraBravo.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoTamaraBravo.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoTamaraBravo.calcularAportacionIESS();
 
-            /*rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(AnaBravo);
-            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(IsabellaOlmedo);
-            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(CarlosBravo);
-            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(PedroGomez);
-            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(KarlaNajarez);
-            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(FernandoBrayanes);*/
+            OperacionesRolPagos rolPagoAnaBravo = new OperacionesRolPagos(AnaBravo);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoAnaBravo.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoAnaBravo.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoAnaBravo.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoAnaBravo.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoAnaBravo.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoAnaBravo.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoAnaBravo.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoAnaBravo.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoAnaBravo.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoIsabellaOlmedo = new OperacionesRolPagos(IsabellaOlmedo);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoIsabellaOlmedo.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoIsabellaOlmedo.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoIsabellaOlmedo.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoIsabellaOlmedo.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoIsabellaOlmedo.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoIsabellaOlmedo.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoIsabellaOlmedo.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoIsabellaOlmedo.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoIsabellaOlmedo.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoCarlosBravo = new OperacionesRolPagos(CarlosBravo);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoCarlosBravo.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoCarlosBravo.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoCarlosBravo.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoCarlosBravo.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoCarlosBravo.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoCarlosBravo.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoCarlosBravo.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoCarlosBravo.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoCarlosBravo.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoPedroGomez = new OperacionesRolPagos(PedroGomez);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoPedroGomez.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoPedroGomez.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoPedroGomez.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoPedroGomez.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoPedroGomez.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoPedroGomez.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoPedroGomez.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoPedroGomez.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoPedroGomez.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoKarlaNajarez = new OperacionesRolPagos(KarlaNajarez);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoKarlaNajarez.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoKarlaNajarez.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoKarlaNajarez.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoKarlaNajarez.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoKarlaNajarez.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoKarlaNajarez.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoKarlaNajarez.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoKarlaNajarez.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoKarlaNajarez.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoFernandoBrayanes = new OperacionesRolPagos(FernandoBrayanes);
+            rolRubroIngenieriaSistemas.salarioEmpleado = rolPagoFernandoBrayanes.salarioMensual();
+            rolRubroIngenieriaSistemas.decimoCuartoSueldo = rolPagoFernandoBrayanes.calcularDecimoCuarto();
+            rolRubroIngenieriaSistemas.decimoTercerSueldo = rolPagoFernandoBrayanes.calcularDecimoTercer();
+            rolRubroIngenieriaSistemas.asistenciaEmpleado = rolPagoFernandoBrayanes.calcularAsistencia();
+            rolRubroIngenieriaSistemas.numeroHorasTrabajas = rolPagoFernandoBrayanes.calcularNumeroHoras();
+            rolRubroIngenieriaSistemas.quincenaEmpleado = rolPagoFernandoBrayanes.calcularQuincena();
+            rolRubroIngenieriaSistemas.horasExtras = rolPagoFernandoBrayanes.calcularHorasExtras();
+            rolRubroIngenieriaSistemas.valorHora = rolPagoFernandoBrayanes.valorHora();
+            rolRubroIngenieriaSistemas.aportacionIESS = rolPagoFernandoBrayanes.calcularAportacionIESS();
 
             RolPago rolRubroIngenieriaContabilidad = new RolPago()
             {
@@ -1044,15 +1134,104 @@ namespace CargaDatos
                 Estado_Rol = "Pagado",
                 Rubros = ingenieriaContabilidad
             };
-            /*rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(FlavioBravo);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(MaxBrito);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(GuillermoBucheli);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(RichardBuenano);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(MyrianBunay);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(AnacelinaBurbano);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(HectorBurneo);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(FrankCaamano);
-            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(AndreaCabrera);*/
+            OperacionesRolPagos rolPagoFlavioBravo = new OperacionesRolPagos(FlavioBravo);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoFlavioBravo.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoFlavioBravo.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoFlavioBravo.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoFlavioBravo.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoFlavioBravo.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoFlavioBravo.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoFlavioBravo.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoFlavioBravo.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoFlavioBravo.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoMaxBrito = new OperacionesRolPagos(MaxBrito);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoMaxBrito.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoMaxBrito.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoMaxBrito.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoMaxBrito.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoMaxBrito.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoMaxBrito.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoMaxBrito.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoMaxBrito.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoMaxBrito.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoGuillermoBucheli = new OperacionesRolPagos(GuillermoBucheli);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoGuillermoBucheli.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoGuillermoBucheli.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoGuillermoBucheli.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoGuillermoBucheli.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoGuillermoBucheli.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoGuillermoBucheli.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoGuillermoBucheli.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoGuillermoBucheli.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoGuillermoBucheli.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoRichardBuenano = new OperacionesRolPagos(RichardBuenano);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoRichardBuenano.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoRichardBuenano.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoRichardBuenano.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoRichardBuenano.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoRichardBuenano.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoRichardBuenano.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoRichardBuenano.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoRichardBuenano.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoRichardBuenano.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoMyrianBunay = new OperacionesRolPagos(MyrianBunay);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoMyrianBunay.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoMyrianBunay.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoMyrianBunay.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoMyrianBunay.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoMyrianBunay.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoMyrianBunay.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoMyrianBunay.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoMyrianBunay.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoMyrianBunay.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoAnacelinaBurbano = new OperacionesRolPagos(AnacelinaBurbano);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoAnacelinaBurbano.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoAnacelinaBurbano.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoAnacelinaBurbano.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoAnacelinaBurbano.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoAnacelinaBurbano.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoAnacelinaBurbano.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoAnacelinaBurbano.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoAnacelinaBurbano.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoAnacelinaBurbano.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoHectorBurneo = new OperacionesRolPagos(HectorBurneo);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoHectorBurneo.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoHectorBurneo.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoHectorBurneo.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoHectorBurneo.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoHectorBurneo.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoHectorBurneo.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoHectorBurneo.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoHectorBurneo.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoHectorBurneo.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoFrankCaamano = new OperacionesRolPagos(FrankCaamano);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoFrankCaamano.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoFrankCaamano.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoFrankCaamano.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoFrankCaamano.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoFrankCaamano.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoFrankCaamano.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoFrankCaamano.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoFrankCaamano.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoFrankCaamano.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoAndreaCabrera = new OperacionesRolPagos(AndreaCabrera);
+            rolRubroIngenieriaContabilidad.salarioEmpleado = rolPagoAndreaCabrera.salarioMensual();
+            rolRubroIngenieriaContabilidad.decimoCuartoSueldo = rolPagoAndreaCabrera.calcularDecimoCuarto();
+            rolRubroIngenieriaContabilidad.decimoTercerSueldo = rolPagoAndreaCabrera.calcularDecimoTercer();
+            rolRubroIngenieriaContabilidad.asistenciaEmpleado = rolPagoAndreaCabrera.calcularAsistencia();
+            rolRubroIngenieriaContabilidad.numeroHorasTrabajas = rolPagoAndreaCabrera.calcularNumeroHoras();
+            rolRubroIngenieriaContabilidad.quincenaEmpleado = rolPagoAndreaCabrera.calcularQuincena();
+            rolRubroIngenieriaContabilidad.horasExtras = rolPagoAndreaCabrera.calcularHorasExtras();
+            rolRubroIngenieriaContabilidad.valorHora = rolPagoAndreaCabrera.valorHora();
+            rolRubroIngenieriaContabilidad.aportacionIESS = rolPagoAndreaCabrera.calcularAportacionIESS();
 
             RolPago rolRubroIngenieriaFinanzas = new RolPago()
             {
@@ -1065,11 +1244,50 @@ namespace CargaDatos
                 Estado_Rol = "Pagado",
                 Rubros = ingenieriaFinanzas
             };
-            /*rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(EnriqueBriones);
-            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(EdmundoBriones);
-            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(JohanBriones);
-            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(ArturoBrito);*/
+            OperacionesRolPagos rolPagoEnriqueBriones = new OperacionesRolPagos(EnriqueBriones);
+            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoEnriqueBriones.salarioMensual();
+            rolRubroIngenieriaFinanzas.decimoCuartoSueldo = rolPagoEnriqueBriones.calcularDecimoCuarto();
+            rolRubroIngenieriaFinanzas.decimoTercerSueldo = rolPagoEnriqueBriones.calcularDecimoTercer();
+            rolRubroIngenieriaFinanzas.asistenciaEmpleado = rolPagoEnriqueBriones.calcularAsistencia();
+            rolRubroIngenieriaFinanzas.numeroHorasTrabajas = rolPagoEnriqueBriones.calcularNumeroHoras();
+            rolRubroIngenieriaFinanzas.quincenaEmpleado = rolPagoEnriqueBriones.calcularQuincena();
+            rolRubroIngenieriaFinanzas.horasExtras = rolPagoEnriqueBriones.calcularHorasExtras();
+            rolRubroIngenieriaFinanzas.valorHora = rolPagoEnriqueBriones.valorHora();
+            rolRubroIngenieriaFinanzas.aportacionIESS = rolPagoEnriqueBriones.calcularAportacionIESS();
 
+            OperacionesRolPagos rolPagoEdmundoBriones = new OperacionesRolPagos(EdmundoBriones);
+            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoEdmundoBriones.salarioMensual();
+            rolRubroIngenieriaFinanzas.decimoCuartoSueldo = rolPagoEdmundoBriones.calcularDecimoCuarto();
+            rolRubroIngenieriaFinanzas.decimoTercerSueldo = rolPagoEdmundoBriones.calcularDecimoTercer();
+            rolRubroIngenieriaFinanzas.asistenciaEmpleado = rolPagoEdmundoBriones.calcularAsistencia();
+            rolRubroIngenieriaFinanzas.numeroHorasTrabajas = rolPagoEdmundoBriones.calcularNumeroHoras();
+            rolRubroIngenieriaFinanzas.quincenaEmpleado = rolPagoEdmundoBriones.calcularQuincena();
+            rolRubroIngenieriaFinanzas.horasExtras = rolPagoEdmundoBriones.calcularHorasExtras();
+            rolRubroIngenieriaFinanzas.valorHora = rolPagoEdmundoBriones.valorHora();
+            rolRubroIngenieriaFinanzas.aportacionIESS = rolPagoEdmundoBriones.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoJohanBriones = new OperacionesRolPagos(JohanBriones);
+            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoJohanBriones.salarioMensual();
+            rolRubroIngenieriaFinanzas.decimoCuartoSueldo = rolPagoJohanBriones.calcularDecimoCuarto();
+            rolRubroIngenieriaFinanzas.decimoTercerSueldo = rolPagoJohanBriones.calcularDecimoTercer();
+            rolRubroIngenieriaFinanzas.asistenciaEmpleado = rolPagoJohanBriones.calcularAsistencia();
+            rolRubroIngenieriaFinanzas.numeroHorasTrabajas = rolPagoJohanBriones.calcularNumeroHoras();
+            rolRubroIngenieriaFinanzas.quincenaEmpleado = rolPagoJohanBriones.calcularQuincena();
+            rolRubroIngenieriaFinanzas.horasExtras = rolPagoJohanBriones.calcularHorasExtras();
+            rolRubroIngenieriaFinanzas.valorHora = rolPagoJohanBriones.valorHora();
+            rolRubroIngenieriaFinanzas.aportacionIESS = rolPagoJohanBriones.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoArturoBrito = new OperacionesRolPagos(ArturoBrito);
+            rolRubroIngenieriaFinanzas.salarioEmpleado = rolPagoArturoBrito.salarioMensual();
+            rolRubroIngenieriaFinanzas.decimoCuartoSueldo = rolPagoArturoBrito.calcularDecimoCuarto();
+            rolRubroIngenieriaFinanzas.decimoTercerSueldo = rolPagoArturoBrito.calcularDecimoTercer();
+            rolRubroIngenieriaFinanzas.asistenciaEmpleado = rolPagoArturoBrito.calcularAsistencia();
+            rolRubroIngenieriaFinanzas.numeroHorasTrabajas = rolPagoArturoBrito.calcularNumeroHoras();
+            rolRubroIngenieriaFinanzas.quincenaEmpleado = rolPagoArturoBrito.calcularQuincena();
+            rolRubroIngenieriaFinanzas.horasExtras = rolPagoArturoBrito.calcularHorasExtras();
+            rolRubroIngenieriaFinanzas.valorHora = rolPagoArturoBrito.valorHora();
+            rolRubroIngenieriaFinanzas.aportacionIESS = rolPagoArturoBrito.calcularAportacionIESS();
+            
             RolPago rolRubroIngenieriaMarketing = new RolPago()
             {
                 Nombre_Empresa = "Sonda Ecuador",
@@ -1081,10 +1299,50 @@ namespace CargaDatos
                 Estado_Rol = "Pagado",
                 Rubros = ingenieriaMarketing
             };
-            /*rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(RothmanCaceres);
-            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(CarmenCadena);
-            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(MercedesCaicedo);
-            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoTamaraBravo.salarioMensual(LuciaCajamarca);*/
+            OperacionesRolPagos rolPagoRothmanCaceres = new OperacionesRolPagos(RothmanCaceres);
+            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoRothmanCaceres.salarioMensual();
+            rolRubroIngenieriaMarketing.decimoCuartoSueldo = rolPagoRothmanCaceres.calcularDecimoCuarto();
+            rolRubroIngenieriaMarketing.decimoTercerSueldo = rolPagoRothmanCaceres.calcularDecimoTercer();
+            rolRubroIngenieriaMarketing.asistenciaEmpleado = rolPagoRothmanCaceres.calcularAsistencia();
+            rolRubroIngenieriaMarketing.numeroHorasTrabajas = rolPagoRothmanCaceres.calcularNumeroHoras();
+            rolRubroIngenieriaMarketing.quincenaEmpleado = rolPagoRothmanCaceres.calcularQuincena();
+            rolRubroIngenieriaMarketing.horasExtras = rolPagoRothmanCaceres.calcularHorasExtras();
+            rolRubroIngenieriaMarketing.valorHora = rolPagoRothmanCaceres.valorHora();
+            rolRubroIngenieriaMarketing.aportacionIESS = rolPagoRothmanCaceres.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoCarmenCadena = new OperacionesRolPagos(CarmenCadena);
+            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoCarmenCadena.salarioMensual();
+            rolRubroIngenieriaMarketing.decimoCuartoSueldo = rolPagoCarmenCadena.calcularDecimoCuarto();
+            rolRubroIngenieriaMarketing.decimoTercerSueldo = rolPagoCarmenCadena.calcularDecimoTercer();
+            rolRubroIngenieriaMarketing.asistenciaEmpleado = rolPagoCarmenCadena.calcularAsistencia();
+            rolRubroIngenieriaMarketing.numeroHorasTrabajas = rolPagoCarmenCadena.calcularNumeroHoras();
+            rolRubroIngenieriaMarketing.quincenaEmpleado = rolPagoCarmenCadena.calcularQuincena();
+            rolRubroIngenieriaMarketing.horasExtras = rolPagoCarmenCadena.calcularHorasExtras();
+            rolRubroIngenieriaMarketing.valorHora = rolPagoCarmenCadena.valorHora();
+            rolRubroIngenieriaMarketing.aportacionIESS = rolPagoCarmenCadena.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoMercedesCaicedo = new OperacionesRolPagos(MercedesCaicedo);
+            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoMercedesCaicedo.salarioMensual();
+            rolRubroIngenieriaMarketing.decimoCuartoSueldo = rolPagoMercedesCaicedo.calcularDecimoCuarto();
+            rolRubroIngenieriaMarketing.decimoTercerSueldo = rolPagoMercedesCaicedo.calcularDecimoTercer();
+            rolRubroIngenieriaMarketing.asistenciaEmpleado = rolPagoMercedesCaicedo.calcularAsistencia();
+            rolRubroIngenieriaMarketing.numeroHorasTrabajas = rolPagoMercedesCaicedo.calcularNumeroHoras();
+            rolRubroIngenieriaMarketing.quincenaEmpleado = rolPagoMercedesCaicedo.calcularQuincena();
+            rolRubroIngenieriaMarketing.horasExtras = rolPagoMercedesCaicedo.calcularHorasExtras();
+            rolRubroIngenieriaMarketing.valorHora = rolPagoMercedesCaicedo.valorHora();
+            rolRubroIngenieriaMarketing.aportacionIESS = rolPagoMercedesCaicedo.calcularAportacionIESS();
+
+            OperacionesRolPagos rolPagoLuciaCajamarca = new OperacionesRolPagos(LuciaCajamarca);
+            rolRubroIngenieriaMarketing.salarioEmpleado = rolPagoLuciaCajamarca.salarioMensual();
+            rolRubroIngenieriaMarketing.decimoCuartoSueldo = rolPagoLuciaCajamarca.calcularDecimoCuarto();
+            rolRubroIngenieriaMarketing.decimoTercerSueldo = rolPagoLuciaCajamarca.calcularDecimoTercer();
+            rolRubroIngenieriaMarketing.asistenciaEmpleado = rolPagoLuciaCajamarca.calcularAsistencia();
+            rolRubroIngenieriaMarketing.numeroHorasTrabajas = rolPagoLuciaCajamarca.calcularNumeroHoras();
+            rolRubroIngenieriaMarketing.quincenaEmpleado = rolPagoLuciaCajamarca.calcularQuincena();
+            rolRubroIngenieriaMarketing.horasExtras = rolPagoLuciaCajamarca.calcularHorasExtras();
+            rolRubroIngenieriaMarketing.valorHora = rolPagoLuciaCajamarca.valorHora();
+            rolRubroIngenieriaMarketing.aportacionIESS = rolPagoLuciaCajamarca.calcularAportacionIESS();
+            
 
             List<RolPago> listaRolPagos = new List<RolPago>()
             {

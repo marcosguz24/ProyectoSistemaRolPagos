@@ -1,0 +1,33 @@
+﻿@using Modelo.Entidades
+@model RolPago
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminación de una Empleado</h1>
+<p>Formulario para la eliminar un Rol de Pago en el SGRP</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Seguro que desea eliminar el Rol de Pago de: @Model.Rubros.Empleados</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <form method="post" asp-action="Delete">
+                <input type="hidden" asp-for="RolPagoId"/>
+                <div class="form-group">
+                    <label class="control-label">Empleado</label>
+                    <input class="form-control" asp-for="Rubros.Empleados" disabled/>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Eliminar Rol de Pago"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

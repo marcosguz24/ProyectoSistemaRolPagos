@@ -3,14 +3,14 @@
   <Class Name="Modelo.Entidades.Asistencia">
     <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAEBAAAABAEAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAEAAEBAAAABAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Asistencia.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo.Entidades.Cargo">
     <Position X="9.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAACIAAAAAEIAAAAAAAAgAAAAAAAAAAQA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEIAAAAAAAAgAAAAAAAAAAQA=</HashCode>
       <FileName>Entidades\Cargo.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -24,7 +24,7 @@
   <Class Name="Modelo.Entidades.Contrato">
     <Position X="5.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAEACAQAIAAAAAAAAAAAABBAAAAAAAAACA=</HashCode>
+      <HashCode>AAAAAABAAAAEACAQAIAAEAAAAAAAAABBAAAAAAAAACA=</HashCode>
       <FileName>Entidades\Contrato.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -38,7 +38,7 @@
   <Class Name="Modelo.Entidades.Empleado">
     <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BQOEAAAAAAAQACAAAQBAAJBEgAgBQABQAAAAAAgAKQA=</HashCode>
+      <HashCode>BQOEAAAAAAAQACAAAQBAAJBEgAgBQABQAAAAAAgAKUA=</HashCode>
       <FileName>Entidades\Empleado.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -64,7 +64,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo.Entidades.Region">
-    <Position X="5.75" Y="3" Width="1.5" />
+    <Position X="5.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAkAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Region.cs</FileName>
@@ -73,14 +73,14 @@
   <Class Name="Modelo.Entidades.RolPago">
     <Position X="11" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IQIABAAAAAAAQAQAAAAAAAAAAAAAAAAAAAIAAAIIAAA=</HashCode>
+      <HashCode>IRIABAAAAAgASARAAAIAABAAAAAAAAAAgAIBAAYIAQA=</HashCode>
       <FileName>Entidades\RolPago.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo.Entidades.Rubro">
     <Position X="9.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAABECAAAAAAAAAAAAJAAAAEAAAAAAAAQAQAAgAA=</HashCode>
+      <HashCode>AAAAAABEAAAAAAAAAAAAAJAAAAEAAAAAAAAQAAAAgAA=</HashCode>
       <FileName>Entidades\Rubro.cs</FileName>
     </TypeIdentifier>
   </Class>

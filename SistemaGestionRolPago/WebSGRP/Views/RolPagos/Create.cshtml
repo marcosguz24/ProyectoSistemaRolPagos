@@ -1,0 +1,71 @@
+﻿@using Modelo.Entidades
+@model RolPago
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Creación de Empleados</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Nuevo Rol de Pago</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10">
+            <form method="post" asp-action="Create">
+                <div class="form-group">
+                    <label class="control-label">Nombre de la Empresa</label>
+                    <label class="form-control" asp-for="Nombre_Empresa"></label>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Representante de la Empresa</label>
+                    <label class="form-control" asp-for="Representante_Empresa"></label>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Ruc de la Empresa</label>
+                    <label class="form-control" asp-for="RUC_Empresa"></label>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Cédula</label>
+                    <input class="form-control" asp-for="Representante_Empresa" placeholder="Cédula del Empleado"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Descripción del Rol de Pago</label>
+                    <input type="email" class="form-control" asp-for="Descripcion_RolPagos" placeholder="Descripción del Rol de Pago"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Fecha Inicio</label>
+                    <input type="datetime" class="form-control" asp-for="Fecha_Inicio" placeholder="Fecha de Inicio"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Fecha Fin</label>
+                    <input type="datetime" class="form-control" asp-for="Fecha_Fin" placeholder="Fecha de Fin"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Estado del Rol</label>
+                    <input class="form-control" asp-for="Estado_Rol" placeholder="Estado del ROl"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Aistencia Empleado</label>
+                    <input type="datetime" class="form-control" asp-for="asistenciaEmpleado" placeholder="Asistencia Empleado"/>
+                </div>
+                @*<div class="form-group">
+                    <label class="control-label">Empleados</label>
+                    <select class="form-control"
+                    asp-for="Rubros.Empleados" asp-items="@ViewBag.selectListaRubro" >
+                        <option value="">--- Seleccione el Empleado ---</option>
+                </select>
+                </div>*@
+                
+                <div class="form-group">
+                    <input type="submit" value="Crear" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

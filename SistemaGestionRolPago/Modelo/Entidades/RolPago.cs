@@ -18,7 +18,7 @@ namespace Modelo.Entidades
         public string Estado_Rol { get; set; }
 
         //Variables de pagos
-        public double asistenciaEmpleado { get; set; }
+        public int asistenciaEmpleado { get; set; }
         public int numeroHorasTrabajas { get; set; }
         public int horasExtras { get; set; }
         public double valorHora { get; set; }
@@ -30,5 +30,9 @@ namespace Modelo.Entidades
 
         //Propiedad relacion con Rubros
         public Rubro Rubros { get; set; }
+        public int RubroId { get; set; }
+
     }
+
+    
 }

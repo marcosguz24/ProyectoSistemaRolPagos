@@ -20,40 +20,43 @@ namespace Helpers
         }
 
         public Empleado empleado { get; set; }
-        public Contrato contrato { get; set; } 
+        public Contrato contrato { get; set; }
+
+        public List<Empleado> listaEmpleado { get; set; }
 
         public OperacionesRolPagos(Empleado empleado)
         {
             this.empleado = empleado;
         }
 
+        public OperacionesRolPagos(List<Empleado> listaEmpleado)
+        {
+            this.listaEmpleado = listaEmpleado;
+        }
+
         public OperacionesRolPagos(Contrato contrato)
         {
             this.contrato = contrato;
+            empleado.Contrato = contrato;
         }
 
         /*+================================================================+
          *|                  Calcular Asistencia                           |
          *+================================================================+*/
-        public bool calcularAsistencia()
+        public int calcularAsistencia()
         {
-            var asistenciaEmpleado = db.empleados
+            /*var asistenciaEmpleado = db.empleados
                 .Include(emple => emple.AsistenciaEmpleados)
-                .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
+                .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);*/
 
             
                 DateTime fechaInicio = empleado.AsistenciaEmpleados.Hora_Inicio;
                 DateTime fechaFin = empleado.AsistenciaEmpleados.Hora_Fin;
-                var numeroDias = fechaFin - fechaInicio;
+                var numeroDias = (fechaFin - fechaInicio).Days;
 
-                if (numeroDias.Days == 30)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+            return numeroDias;
                         
         }
 
@@ -62,8 +65,10 @@ namespace Helpers
          *+================================================================+*/
         public int calcularNumeroHoras()
         {
-            var horasEmpleado = db.empleados
+            /*var horasEmpleado = db.empleados
                 .Include(emple => emple.AsistenciaEmpleados)
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
                 .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
 
             var numeroHoras = 0;
@@ -74,7 +79,12 @@ namespace Helpers
                 DateTime horaFin = empleado.AsistenciaEmpleados.Hora_Fin;
 
                 numeroHoras = (horaFin - horaInicio).Hours;
-            }
+            }*/
+
+            var numeroHorasInicio = empleado.AsistenciaEmpleados.Hora_Inicio;
+            var numeroHorasFin = empleado.AsistenciaEmpleados.Hora_Fin;
+
+            var numeroHoras = (numeroHorasFin - numeroHorasInicio).Hours;
 
             return numeroHoras;
         }
@@ -94,8 +104,10 @@ namespace Helpers
          *+================================================================+*/
         public double valorHora()
         {
-            var sueldoEmpleado = db.empleados
+            /*var sueldoEmpleado = db.empleados
                 .Include(emple => emple.Contrato)
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
                 .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
 
             double sueldoHora = 0;
@@ -104,8 +116,11 @@ namespace Helpers
             {
                 var sueldo = salario.Contrato.Sueldo_Contrato;
                 sueldoHora = ((double)((sueldo / 30) / 8));
-            }
-            
+            }*/
+
+            var sueldoEmpleado = empleado.sueldo;
+            var sueldoHora = ((double)((sueldoEmpleado / 30) / 8));
+
             return (double)sueldoHora;
         }
 
@@ -113,9 +128,11 @@ namespace Helpers
          *|             Calcular el Decimo Tercer Sueldo                   |
          *+================================================================+*/
         public double calcularDecimoTercer()
-        { 
-            var decimoTercerSueldoEmpleado = db.empleados
+        {
+            /*var decimoTercerSueldoEmpleado = db.empleados
                 .Include(emple => emple.Contrato)
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
                 .Where(emple => emple.EmpleadoId == empleado.EmpleadoId);
 
             var horasExtras = calcularHorasExtras();
@@ -128,15 +145,22 @@ namespace Helpers
                 horasExtras = (int)(valorHora() * (double)1.25);
                 var sueldoAcumulado = (sueldo + horasExtras) * 12;
                 decimoTercerSueldo = (double)(sueldoAcumulado / 12);
-            }
+            }*/
+
+
+            var horasExtras = calcularHorasExtras();
+            var sueldoAcumulado = (double)(empleado.sueldo + horasExtras) * 12;
+            var decimoTercerSueldo = (double)(sueldoAcumulado / 12); 
 
             return decimoTercerSueldo;
         }
 
         public double calcularDecimoCuarto()
         {
-            var decimoCuartoSueldoEmpleado = db.empleados
+            /*var decimoCuartoSueldoEmpleado = db.empleados
                 .Include(emple => emple.Contrato)
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
                 .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
 
             double decimoCuartoSueldo = 0;
@@ -145,9 +169,12 @@ namespace Helpers
             {
                 var sueldo = decimoCuarto.Contrato.Sueldo_Contrato;
                 decimoCuartoSueldo = (double)(sueldo / 365);
-            }
+            }*/
+            var sueldo = empleado.sueldo;
+            var decimoCuartoSueldo = (double)(sueldo / 365);
+            var decimoCuartoSueldoAcumulado = decimoCuartoSueldo * 30;
 
-            return (double)decimoCuartoSueldo;
+            return (double)decimoCuartoSueldoAcumulado;
         }
 
         /*+================================================================+
@@ -155,8 +182,10 @@ namespace Helpers
          *+================================================================+*/
         public double calcularAportacionIESS()
         {
-            var aportacionIESSEmpleado = db.empleados
+            /*var aportacionIESSEmpleado = db.empleados
                 .Include(emple => emple.Contrato)
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
                 .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
 
             double aportacionesIESS = 0;
@@ -166,7 +195,10 @@ namespace Helpers
                 var sueldo = aportacionIEES.Contrato.Sueldo_Contrato;
                 aportacionesIESS = ((double)sueldo * 9.45) / 100;
             }
-            
+            */
+            var sueldo = empleado.sueldo;
+            var aportacionesIESS = ((double)sueldo * 9.45) / 100;
+
             return (double)aportacionesIESS;
         }
 
@@ -176,8 +208,10 @@ namespace Helpers
          *+================================================================+*/
         public double calcularQuincena()
         {
-            var quincenaEmpleado = db.empleados
+            /*var quincenaEmpleado = db.empleados
                 .Include(emple => emple.Contrato)
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
                 .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
 
             double quincena = 0;
@@ -186,8 +220,11 @@ namespace Helpers
             {
                 var sueldo = quin.Contrato.Sueldo_Contrato;
                 quincena = (double)sueldo * 0.3;
-            }
-            
+            }*/
+
+            var sueldo = empleado.sueldo;
+            var quincena = (double)sueldo * 0.3;
+
             return quincena;
         }
 
@@ -196,23 +233,30 @@ namespace Helpers
          *+================================================================+*/
         public double salarioMensual()
         {
-            var SalarioMensualEmpleado = db.empleados
+            /*var salarioMensualEmpleado = db.empleados
                 .Include(emple => emple.Contrato)
-                .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);
+                .Include(emple => emple.Rubros)
+                    .ThenInclude(rubro => rubro.Rol_Pagos)
+                .Single(emple => emple.EmpleadoId == empleado.EmpleadoId);*/
 
             var decimoTerceraRemuneracion = calcularDecimoTercer();
             var decimoCuartaRemuneracion = calcularDecimoCuarto();
             var quincena = calcularQuincena();
             var aporteIESS = calcularAportacionIESS();
-            double salario = 0;
+            //double salario = 0;
 
-            foreach (var salarioMensual in SalarioMensualEmpleado.Contrato.Empleados)
+            /*foreach (var salarioMensual in salarioMensualEmpleado.Contrato.Empleados)
             {
                 var sueldoMensual = salarioMensual.Contrato.Sueldo_Contrato;
                 var ingresos = (double)sueldoMensual + decimoTerceraRemuneracion + decimoCuartaRemuneracion;
                 var egresos = quincena + aporteIESS;
                 salario = ingresos - egresos;
-            }
+            }*/
+
+            var sueldoMensual = empleado.sueldo;
+            var ingresos = (double)sueldoMensual + decimoTerceraRemuneracion + decimoCuartaRemuneracion;
+            var egresos = quincena + aporteIESS;
+            var salario = ingresos - egresos;
 
             return (double)salario;
 

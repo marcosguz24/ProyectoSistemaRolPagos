@@ -172,3 +172,7 @@ C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosPro
 C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\Contratos\Delete.cshtml.g.cs
 C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\Rubros\Index.cshtml.g.cs
 C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\Rubros\Create.cshtml.g.cs
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\RolPagos\Index.cshtml.g.cs
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\RolPagos\Create.cshtml.g.cs
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\RolPagos\Edit.cshtml.g.cs
+C:\Users\marco\Desktop\ITQ\QUINTO NIVEL\Programacion Visual 2\SistemaRolPagosProyecto\SistemaGestionRolPago\WebSGRP\obj\Debug\net5.0\Razor\Views\RolPagos\Delete.cshtml.g.cs

@@ -39,6 +39,7 @@
                     <td>Cedula</td>
                     <td>Cargo</td>
                     <td>Jornada Trabajo</td>
+                    <td>Permisos</td>
                     <td>Rubro</td>
                     <td>Aciones</td>
                 </tr>
@@ -50,8 +51,9 @@
                         <td>@empleado.Nombres_Empleado @empleado.Apellidos_Empleado</td>
                         <td>@empleado.Cedula_Empleado</td>
                         <td>@empleado.Contrato.Cargos.Nombre_Cargo</td>
-                        @*<td>@empleado.Jornada_Trabajo.Tipo_Jornada</td>*@
-                        <td>@empleado.Rubros.Nombre_Rubro</td>
+                        <td>@empleado.Jornada_Trabajo</td>
+                        <td>@empleado.Permiso.Nombre_Permiso</td>
+                        <td>@empleado.Rubros</td>
                         <td>
                             <a class="btn btn-warning" asp-controller="Empleados" asp-action="Edit" asp-route-id="@empleado.EmpleadoId">
                                 Editar

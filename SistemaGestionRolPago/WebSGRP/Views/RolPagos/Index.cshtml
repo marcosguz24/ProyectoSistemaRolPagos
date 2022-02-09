@@ -1,0 +1,84 @@
+﻿@using Modelo.Entidades
+@model IEnumerable<RolPago>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Empleados</h1>
+<p>Se presenta la lista de Roles de Pagos registrados en el SGPG</p>
+
+<div class="container">
+    @if(TempData["mensaje"] != null)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            @TempData["mensaje"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                <span aria-hidden="true">
+                    &times;
+                </span>
+            </button>
+        </div>
+    }
+    
+    <div class="row">
+        <div class="col-sm-9">
+            <h3>Lista de Roles</h3>
+        </div>
+        <div class="col-sm-3">
+            <a class="btn btn-success d-block" asp-controller="RolPagos" asp-action="Create">
+                Crear Rol de Pago
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>Nombre de la Emperesa</td>
+                    <td>Ruc de la Empresa</td>
+                    <td>Representante de la Empresa</td>
+                    <td>Empleado</td>
+                    <td>Número de Horas Extras</td>
+                    <td>Número de Horas Trabajadas</td>
+                    <td>Valor por Hora</td>
+                    <td>Décimo Tercer Sueldo</td>
+                    <td>Décimo Cuarto Sueldo</td>
+                    <td>Aporte al IEES</td>
+                    <td>Quincena</td>
+                    <td>Salario Mensual</td>
+                    <td>Aciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (RolPago rolPago in Model)
+               {
+                    <tr>
+                        <td>@rolPago.Nombre_Empresa</td>
+                        <td>@rolPago.RUC_Empresa</td>
+                        <td>@rolPago.Representante_Empresa</td>
+                        <td>@rolPago.Rubros.Empleados</td>
+                        <td>@rolPago.horasExtras</td>
+                        <td>@rolPago.numeroHorasTrabajas</td>
+                        <td>@rolPago.valorHora</td>
+                        <td>@rolPago.decimoTercerSueldo</td>
+                        <td>@rolPago.decimoCuartoSueldo</td>
+                        <td>@rolPago.aportacionIESS</td>
+                        <td>@rolPago.quincenaEmpleado</td>
+                        <td>@rolPago.salarioEmpleado</td>
+
+                        <td>
+                            <a class="btn btn-warning" asp-controller="RolPagos" asp-action="Edit" asp-route-id="@rolPago.RolPagoId">
+                                Editar
+                            </a>
+                            <a class="btn btn-danger" asp-controller="RolPagos" asp-action="Delete" asp-route-id="@rolPago.RolPagoId">
+                                Borrar
+                            </a>
+                        </td>
+                    </tr>
+               }
+            </tbody>
+        </table>
+    </div>
+</div>
+
